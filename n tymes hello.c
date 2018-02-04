@@ -1,7 +1,14 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
-    int i;
-    for(i=0;i<10;i++)
-    printf("hello");
+int i,n;
+printf("enter the values to print :");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+
+printf("\n hello");
 }
+}   
+
