@@ -2,21 +2,21 @@
 #include<stdio.h>
 void main()
 {
-    int a,b,c;
-    printf("enter the value of a:");
-    scanf("%d",&a);
-    printf("enter the value of b:");
-    scanf("%d",&b);
-    printf("enter the value of c:");
-    scanf("%d",&c);
-  if(a>b&&a>c)
+    int x,y,z;
+    printf("enter the value of x:");
+    scanf("%d",&x);
+    printf("enter the value of y:");
+    scanf("%d",&y);
+    printf("enter the value of z:");
+    scanf("%d",&z);
+  if(x>y&&x>z)
   {
-      printf("the number %d is greatest among 3 numbers",a);
+      printf("the number %d is greatest among 3 numbers",x);
   }
-  else if(b>a&&b>c)
+  else if(y>x&&y>z)
   {
-  printf("the number %d is greatest among 3 numbers",b);
+  printf("the number %d is greatest among 3 numbers",y);
   }
   else 
-  printf("the number %d is greatest among 3 numbers",c);
+  printf("the number %d is greatest among 3 numbers",z);
 }
