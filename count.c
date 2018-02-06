@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int a,b,c=0;
     printf("enter the integer:");
@@ -11,4 +11,5 @@ void main()
    ++c;
   }
   printf("numbers of digits for %d=%d",a,c);
+  return 0;
 }
