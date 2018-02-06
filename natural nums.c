@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
     int j,n,sum=0;
     printf("enter the value of n: ");
@@ -9,5 +9,4 @@ int main()
         sum+=j;
     }
     printf("sum of first %d given natural number=%d",n,sum);
-    return 0;
 }
